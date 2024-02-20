@@ -1,0 +1,135 @@
+h1{
+    color: #413b3b76;
+    font-size: 10px;
+}
+body{
+  background-color: #b20404; 
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/010/884/695/original/dynamic-grey-gradient-animation-smooth-gradient-background-liquid-gradient-moving-background-free-video.jpg");
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navigation Styles */
+#nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #e90909;
+  height: 80px;
+  padding: 0 20px;
+}
+#nav {
+    /* ... other styles */
+    justify-content: flex-start; /* Move items to the left */
+    margin-left: 50px; /* Add margin from the left */
+    /* width: 200px; Set width */
+    align-items: center; /* Center items vertically */
+  }
+  
+
+.nav-items {
+  list-style: none;
+}
+
+.nav-items li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-items li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-items li a:hover {
+  color: #33d88b;
+}
+
+/* Hero Section Styles */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  min-width: 165vh;
+  padding: 0 20px;
+  background-color: aqua;
+  background-image: url("https://images.unsplash.com/photo-1588412079929-790b9f593d8e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+
+.hand {
+  margin-right: 140px;
+}
+
+.form-box {
+    width: 420px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    transform: translate(50%, -50%);
+  }
+  
+
+
+.form-box h1 {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #504d4d; /* Change color to black */
+  }
+  
+
+.input-field {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #b3afaf;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #817f7f; /* Change background color to black */
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #a1a0a0; /* Darken button color on hover */
+}
+
+
+.signup {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup a {
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.signup a:hover {
+  color: #8fa4ba;
+}
