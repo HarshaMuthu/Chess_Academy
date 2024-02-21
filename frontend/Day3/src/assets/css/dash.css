@@ -1,0 +1,39 @@
+/* Dashboard.css */
+.dashboard {
+    padding: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .stat {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    margin-right: 10px;
+    text-align: center;
+  }
+  
+  .stat:last-child {
+    margin-right: 0;
+  }
+  
+  .charts {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .notifications {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  

@@ -1,0 +1,55 @@
+/* nav.css */
+
+.navbar {
+    background: linear-gradient(to right, #007f7f, #00cccc); /* Teal gradient background */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  .logo {
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+  }
+  
+  .navbar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .nav-item {
+    margin-right: 20px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #fff; /* White text color */
+    font-weight: bold;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .profile-name {
+    color: #fff; /* White text color */
+    font-weight: bold;
+  }
+  
