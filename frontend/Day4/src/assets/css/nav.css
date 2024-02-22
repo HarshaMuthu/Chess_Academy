@@ -1,0 +1,199 @@
+/* nav.css */
+
+/* Reset basic styles for consistent rendering */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Top container */
+#top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(to right, #43597D, #0A203E); /* Choose your desired gradient */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle box-shadow */
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; /* Adjust height as needed */
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+/* Left section */
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust logo size */
+  height: 50px; /* Adjust logo size */
+  border-radius: 50%; /* Circular logo */
+  object-fit: cover; /* Ensure image fills container */
+}
+
+/* Navbar links */
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px; /* Adjust link spacing */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; /* White text for gradient background */
+  font-family: 'Open Sans', sans-serif; /* Set your desired font */
+  font-weight: 600; /* Bold text */
+  padding: 10px 15px; /* Adjust link padding */
+  border-radius: 4px; /* Rounded link corners */
+  transition: background-color 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link.active { /* Add styling for active link */
+  background-color: rgba(0, 0, 0, 0.1); /* Subtle hover/active background */
+}
+
+/* Right section */
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 40px; /* Adjust profile image size */
+  height: 40px; /* Adjust profile image size */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-family: 'Roboto', sans-serif; /* Set your desired font */
+  font-weight: 600; /* Bold name */
+  margin-left: 10px; /* Adjust name spacing */
+  color: #fff; /* White text for gradient background */
+}
+
+/* Optional enhancements (customize to your preference): */
+
+.nav-link {
+  font-size: 16px; /* Adjust font size */
+}
+
+.profile-name {
+  font-size: 14px; /* Adjust name font size */
+}
+
+/* Responsiveness (consider using media queries for different screen sizes): */
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .left-section,
+  .right-section {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .profile-image {
+    margin-right: 10px;
+  }
+}
+
+/* Reset basic styles for consistent rendering */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Top container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px; /* Adjust height as needed */
+  padding: 0 20px; /* Adjust padding as needed */
+  background: linear-gradient(to right, #43597D, #0A203E); /* Choose your desired gradient */
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle box-shadow */
+}
+
+/* Left section */
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Adjust logo size */
+  height: 50px; /* Adjust logo size */
+  border-radius: 50%; /* Circular logo */
+  object-fit: cover; /* Ensure image fills container */
+}
+
+.company-name {
+  font-size: 24px; /* Adjust font size */
+  font-weight: 600; /* Bold text */
+  color: #fff; /* White text for gradient background */
+  margin-left: 20px; /* Adjust spacing */
+  font-family: 'Open Sans', sans-serif; /* Customize font */
+}
+
+/* Navbar links */
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 20px; /* Adjust link spacing */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff; /* White text for gradient background */
+  font-size: 16px; /* Adjust font size */
+  font-weight: 600; /* Bold text */
+  padding: 10px 15px; /* Adjust link padding */
+  border-radius: 4px; /* Rounded link corners */
+  transition: background-color 0.2s ease-in-out;
+  font-family: 'Roboto', sans-serif; /* Customize font */
+  &:hover, &:active {
+    background-color: rgba(0, 0, 0, 0.1); /* Subtle hover/active effect */
+  }
+}
+
+/* Right section */
+.right-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-image {
+  width: 40px; /* Adjust profile image size */
+  height: 40px; /* Adjust profile image size */
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 14
+}
