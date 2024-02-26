@@ -1,0 +1,51 @@
+/*login Form*/
+
+.border-md {
+    border-width: 2px;
+  }
+  .btn-google {
+    background: #dd4b39;
+    border: none;
+  }
+  
+  .btn-google:hover, .btn-google:focus {
+    background: #de3b3b;
+  }
+  
+  .btn-facebook {
+    background: #405D9D;
+    border: none;
+  }
+  
+  .btn-facebook:hover, .btn-facebook:focus {
+    background: #314879;
+  }
+  
+  /*
+  *
+  * 
+  *
+  */
+  
+  body {
+    min-height: 100vh;
+  }
+  
+  .form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+  }
+  
+  select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+  }
+  
+  .form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  .form-control:focus {
+    box-shadow: none;
+  }
+  

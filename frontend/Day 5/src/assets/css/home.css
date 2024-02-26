@@ -1,0 +1,210 @@
+/* Reset basic styles
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.slider-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    overflow: hidden;
+}
+
+
+.slider-wrapper {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.8s ease-in-out;
+}
+
+
+.slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+}
+
+
+.slider-wrapper.sliding .slide {
+    transform: translateX(-100%);
+}
+
+
+.slick-dots {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.slick-dots button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #ddd;
+    opacity: 0.5;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.slick-dots button:hover,
+.slick-dots button.slick-active {
+    opacity: 1;
+}
+.slider-container {
+    width: 80%; 
+    margin: 0 auto; 
+  }
+  
+  .slider-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; 
+  }
+  */
+   /* .slider-slide img {
+    max-width: 100%;
+    max-height: 100%; 
+    object-fit: fill;
+  } */
+   
+
+   /* Slider Container */
+/* .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+  } */
+  
+  /* Individual Slide */
+  .slick-slide img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  /* Dots (Pagination) */
+  .slick-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 10px;
+    height: 10px;
+    padding: 5px;
+    cursor: pointer;
+    border: 0;
+    outline: none;
+    background-color: #ccc;
+    border-radius: 50%;
+  }
+  
+  .slick-dots li button:hover,
+  .slick-dots li button:focus {
+    background-color: #666;
+  }
+  
+  .sliderimage{
+    object-fit: cover;
+    width: 100%;
+    height:100vh;
+
+  }
+  .slick-slider{
+    width: 100%;
+  }
+
+  /* About section styles */
+
+#about {
+  padding: 160px 0; /* Adjust padding as needed */
+}
+
+#about h3 {
+  font-size: 30px;
+  margin: 0 0 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#9bf4f4;
+  line-height: 1.5; /* Adjust line-height for better readability */
+}
+
+#about h2 {
+  position: relative;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:#9bf4f4;
+  line-height: 1.2; /* Adjust line-height for better spacing */
+}
+
+#about h2::after {
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, /* Adjust gradient colors */ #9bf4f4 0%, #5ce8fb 100%);
+  height: 4px;
+  width: 180px;
+  bottom: 0;
+  left: 0;
+}
+
+#about .about-text li {
+  margin-bottom: 6px;
+  margin-left: 6px;
+  list-style: none;
+  padding: 0;
+  font-size: 16px; /* Adjust font size for better readability */
+  line-height: 1.5; /* Adjust line-height for better spacing */
+}
+
+#about .about-text li:before {
+  content: "\f00c"; /* Font Awesome icon for checkmark */
+  font-family: "FontAwesome"; /* Ensure you have FontAwesome installed */
+  color:#9bf4f4;
+  font-size: 20px; /* Adjust font size for better balance */
+  font-weight: 300;
+  padding-right: 8px;
+}
+
+#about img {
+  width: 520px; /* Adjust width as needed */
+  margin-top: 10px;
+  background: #fff; /* Adjust background color if needed */
+  border-right: 0; /* Remove border if not desired */
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06); /* Adjust shadow intensity if needed */
+}
+
+#about p {
+  line-height: 33px; /* Adjust line-height for better readability */
+  margin: 30px 0;
+  font-size: 18px; /* Adjust font size for better readability */
+}
