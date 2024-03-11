@@ -1,0 +1,38 @@
+/* student.css */
+
+.table-container {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 0 auto; /* Center the table horizontally */
+  padding: 20px; /* Add some padding around the table */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #c6d6f1;
+  text-align: left;
+}
+
+th {
+  background-color: #83a1c5;
+}
+
+/* Style alternate rows */
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover effect for table rows */
+tbody tr:hover {
+  background-color: #e0e0e0;
+}
+
+/* Adjust the width of the last column (Schedule) */
+tbody tr td:last-child {
+  min-width: 120px;
+}

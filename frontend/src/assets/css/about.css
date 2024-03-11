@@ -1,0 +1,74 @@
+/* ChessCourse.css */
+.chess-course-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .chess-course-header {
+    text-align: center;
+  }
+  
+  .chess-course-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .chess-course-content {
+    font-size: 1.1em;
+    line-height: 1.5;
+  }
+  
+  .chess-course-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .chess-course-list-item {
+    margin-bottom: 10px;
+  }
+  
+  .chess-course-benefits {
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  .chess-course-container {
+    display: flex;
+    justify-content: space-between; /* To space items evenly */
+    align-items: center; /* To vertically center items */
+  }
+  
+  .chess-course-content {
+    width: 50%; /* Adjust width as needed */
+    padding-right: 20px; /* Add some spacing between content and image */
+  }
+  
+  .chess-course-list {
+    padding-left: 20px; /* Add some spacing for list items */
+  }
+  
+  .chess-course-list-item {
+    list-style: disc; /* Change bullet style */
+  }
+  
+  .chess-course-description, .chess-course-benefits {
+    margin-bottom: 20px; /* Add some spacing between paragraphs */
+  }
+  
+  .chess-course-image {
+    width: 50%; /* Adjust width as needed */
+  }
+  
+  /* Optional: For responsive design */
+  @media (max-width: 768px) {
+    .chess-course-container {
+      flex-direction: column; /* Stack items vertically on smaller screens */
+      align-items: flex-start; /* Align items to the start on smaller screens */
+    }
+  
+    .chess-course-content, .chess-course-image {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  
